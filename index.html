@@ -31,15 +31,13 @@
           <div class="col-xs-12">
             <nav class="navbar navbar-default navbar-fixed-bottom">
               <div class="input-group">
-              <div class="input-group-btn dropup">
-                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Elegir <span class="caret"></span></button>
-                <ul class="dropdown-menu">
-                  <li><a id="war" href="#">War</a></li>
-                  <li><a id="danger" href="#">Danger</a></li>
-                  <li><a id="ok" href="#">Ok</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a id="info" href="#">Info</a></li>
-                </ul>
+              <div class="">
+                <select id="color" class="form-control">
+                  <option value="alert-info" >Info</option>
+                  <option value="alert-warning" >Warning</option>
+                  <option value="alert-danger" >Danger</option>
+                  <option value="alert-success" >Succes</option>
+                </select>
               </div>
               <div class="input-group">
                 <input id="chat" type="text" class="form-control" placeholder="">
